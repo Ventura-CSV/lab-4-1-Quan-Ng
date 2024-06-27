@@ -1,14 +1,21 @@
 def main():
 
     N = int(input('Enter the number N: '))
-    result = []
+    result = [ ]
 
     """
     ########################################
     Code Your Program here
     ########################################
     """
-
+    
+    for num in range(N):
+        num = ( 2 ** num)
+        result.append(num)
+    print(result)
+    
+    
+   
     ########################################
     # Do not delete the return statement
     ########################################
