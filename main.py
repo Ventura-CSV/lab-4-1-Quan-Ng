@@ -9,10 +9,10 @@ def main():
     ########################################
     """
     
-    for num in range(N):
+    for num in range(N+1):
         num = ( 2 ** num)
         result.append(num)
-    print(result)
+    print(*result)
     
     
    
